@@ -8,15 +8,28 @@
 - Starten der Kommandozeile oder in IDE (Bsp. Visual Studio Code)
 - Überprüfen der Installation mit Befehl *go version*
 
-2. Go online Umgebung
+2. Ausführen Go Programmen
+- Kommando *go run* [Dateiname]
+
+3. Go online Umgebung
 [Go Playground](https://play.golang.org/)
 - Auswahl zwischen verschiedener Beispiele
 
-3. Ausführen von Go
-- Kommando *go run* [Dateiname]
-
-4. Beispiel für Web Application
+4. Beispiel für Web Application [^fu1]
 - in Unterordner Server
+- *go run server.go*
 
 5. Beispiel für Concurrency
-- in Unterordner Concurrency
+- in Unterordner Concurrency 
+- Step 1: Run program without Groroutine
+- Step 2: Add go to function to enable Goroutine
+- Step 3: Add Wait Group to synchronize
+- in Unterordner Channel: Selbe Aufgabe mittels Channels
+
+6. Besonderheiten [^fu2]
+- [Pointer](https://tour.golang.org/moretypes/1)
+- [Structs](https://tour.golang.org/moretypes/2)
+- [Interfaces](https://gobyexample.com/interfaces)
+
+[^fu1]: [Quelle Concurrency Beispiel](https://medium.com/wesionary-team/practical-example-of-concurrency-on-golang-fc4609ea8ed1)
+[^fu2]: [Tour of Go](https://tour.golang.org/list): Allgemeine Tutorials zu einzelnen Aspekten
