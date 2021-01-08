@@ -15,7 +15,7 @@
 [Go Playground](https://play.golang.org/)
 - Auswahl zwischen verschiedener Beispiele
 
-4. Beispiel für Web Application [^fu1]
+4. Beispiel für Web Application
 - in Unterordner Server
 - *go run server.go*
 
@@ -26,11 +26,11 @@
 - Step 3: Add Wait Group to synchronize
 - in Unterordner Channel: Selbe Aufgabe mittels Channels
 
-6. Besonderheiten [^fu2]
+6. Besonderheiten:
 - [Pointer](https://tour.golang.org/moretypes/1)
 - [Structs](https://tour.golang.org/moretypes/2)
 - [Interfaces](https://gobyexample.com/interfaces)
 
-
-[^fu1]: [Quelle Concurrency Beispiel](https://medium.com/wesionary-team/practical-example-of-concurrency-on-golang-fc4609ea8ed1)
-[^fu2]: [Tour of Go](https://tour.golang.org/list): Allgemeine Tutorials zu einzelnen Aspekten
+7. Links
+- [Tour of Go](https://tour.golang.org/list): Allgemeine Tutorials zu einzelnen Aspekten
+- [Quelle](https://medium.com/wesionary-team/practical-example-of-concurrency-on-golang-fc4609ea8ed1): Quelle für Concurrency Beispiel
