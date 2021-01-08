@@ -12,8 +12,11 @@
 [Go Playground](https://play.golang.org/)
 - Auswahl zwischen verschiedener Beispiele
 
-3. Beispiel für Web Application
+3. Ausführen von Go
+- Kommando *go run* [Dateiname]
+
+4. Beispiel für Web Application
 - in Unterordner Server
 
-4. Beispiel für Concurrency
+5. Beispiel für Concurrency
 - in Unterordner Concurrency
