@@ -10,9 +10,7 @@ import (
 // Step 2: Add go to function to enable Goroutine
 // Step 3: Add Wait Group to synchronize
 
-/*
-var wg sync.WaitGroup
-*/
+//var wg sync.WaitGroup
 
 func main() {
 
@@ -33,14 +31,10 @@ func main() {
 	for _, website := range websites {
 		//go
 		getWebsite(website)
-		/*
-			wg.Add(1)
-		*/
+		//wg.Add(1)
 	}
 
-	/*
-		wg.Wait()
-	*/
+	//wg.Wait()
 
 	//Print time
 	// Formatted string, such as "2h3m0.5s" or "4.503μs"
@@ -50,9 +44,7 @@ func main() {
 
 func getWebsite(website string) {
 
-	/*
-		defer wg.Done()
-	*/
+	//defer wg.Done()
 
 	if res, err := http.Get(website); err != nil {
 		fmt.Println(website, "is down")
